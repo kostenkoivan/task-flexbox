@@ -4,3 +4,27 @@ body,
     height: 100%;
     margin: 0;
 }
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 300px;
+
+}
+.flex-container__circle{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #DAA520;
+    border-radius: 50%;
+    border-top: 100px;
+}
+.flex-container__circle_bottom{
+    margin-top:200px;
+}
+.flex-container__circle_middle{
+    margin-top: 100px;
+}
+.flex-container__circle_top{
+margin-top: 0px;
+}
