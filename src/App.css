@@ -11,7 +11,7 @@ body,
     height: 300px;
 
 }
-.flex-container__circle{
+div{
     display: flex;
     width: 100px;
     height: 100px;
@@ -19,12 +19,15 @@ body,
     border-radius: 50%;
     border-top: 100px;
 }
-.flex-container__circle_bottom{
-    margin-top:200px;
-}
-.flex-container__circle_middle{
+div+div{
     margin-top: 100px;
 }
-.flex-container__circle_top{
-margin-top: 0px;
+div+div+div{
+    margin-top:200px;
+}
+div+div+div+div{
+    margin-top: 100px;
+}
+div+div+div+div+div{
+    margin-top: 0px;
 }
